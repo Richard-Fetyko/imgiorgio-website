@@ -1,0 +1,56 @@
+#links {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 80%;
+    flex-wrap:wrap;
+    max-width:1000px;
+}
+.link-and-label {
+    background-color:white;
+    flex-direction:column;
+}
+.link-box {
+    display:flex;
+    background-color: lightgray;
+    width: 250px;
+    height: 100%;
+    margin-bottom:5%;
+    align-items:center;
+    justify-content:center;
+}
+#about {
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+h1 {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: xx-large;
+}
+
+#about-me-text {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    height:auto;
+    width:80%;
+    font-size:larger;
+}
+p {
+    text-align:center;
+    font-family: 'Manrope', sans-serif;
+    font-size:large;
+}
+#logo {
+    border-radius: 50%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.link-and-label {
+    padding-bottom:50px;
+}

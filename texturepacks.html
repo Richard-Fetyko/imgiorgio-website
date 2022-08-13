@@ -1,43 +1,22 @@
 <!DOCTYPE html>
-  <html>
-    <meta charset="UTF-8">
-    <body>
-        <h1>ImGiorgio's Texture Packs</h1>
-        <main>
-            <h2>Fractal 16x</h2>
-            <p>for 1.8.9</p>
-            <a href="! Fractal 16x V32.zip" download="Fractal 16x V32">Download Fractal 16x V32</a>
-            <br><br>
-            <form id="Download Old Fractal Versions" method="post">
-              <label for="Old Fractal 16x Packs">Download Older Versions:
-                <select id="Old Fractal 16x Packs">
-                    <option value="" selected></option>
-                    <option value="V3">Fractal 16x V3</option>
-                    <option value="V7">Fractal 16x V7</option>
-                    <option value="V11">Fractal 16x V11</option>
-                    <option value="V24">Fractal 16x V24</option>
-                    <option value="V30">Fractal 16x V30</option>
-                    <option value="V31">Fractal 16x V31</option>
-                </select>
-             </label>
-             <input type="submit" id="download-button" value="Download">
-           </form>
-          
-           <script type="text/Javascript">
-            const form = document.getElementById('Download Old Fractal Versions');
-            form.addEventListener('submit', downloadPack);
-             function downloadPack(event) {
-             var select = document.getElementById('Old Fractal 16x Packs');
-             var value = select.options[select.selectedIndex].value;
-         
-            let downloadLink = document.createElement('a');
-            downloadLink.href = "! Fractal 16x " + value + ".zip";
-            downloadLink.download = "Fractal 16x " + value;
-            document.documentElement.appendChild(downloadLink);
-            downloadLink.click();
-            document.documentElement.removeChild(downloadLink);
-          }
-           </script>
-        </main>
-    </body>
-  </html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+  <title>Texture Packs | ImGiorgio</title>
+  <a href="index.html">< Back</a>
+</head>
+
+<body>
+  <h1>ImGiorgio's Texture Packs</h1>
+  <main>
+    <h2>Fractal 16x</h2>
+    <p>for 1.8.9</p>
+    <a href="! Fractal 16x V32.zip" download="Fractal 16x V32">Download Fractal 16x V32</a>
+    <br><br>
+    <a href="fractal.html">More</a>
+  </main>
+</body>
+
+</html>
