@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 250px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     width: 80%;
     flex-wrap: wrap;
     max-width: 1000px;
+    margin-bottom:-50px;
 }
 
 .link-and-label {
@@ -58,13 +59,6 @@ p {
     font-family: 'Manrope', sans-serif;
     font-size: large;
 }
-
-#logo {
-    border-radius: 50%;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
 .link-and-label {
     padding-bottom: 50px;
 }

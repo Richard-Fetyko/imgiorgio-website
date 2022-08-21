@@ -1,0 +1,48 @@
+h1, h3, p, a{
+    font-family: 'Manrope', sans-serif;
+}
+.pack-downloads {
+    display:flex;
+    background-color:lightgray;
+    height:auto;
+    margin:auto;
+    width:90%;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+}
+a {
+    color:#b00000;
+}
+.pack-downloads > p, .pack-downloads a {
+    margin-left:50px;
+}
+#back-text {
+    text-decoration:underline;
+}
+h1, h3 {
+    text-align:center;
+}
+h1 {
+    font-size:40px;
+}
+h3 {
+    font-size:25px;
+}
+.pack-downloads img {
+    margin-top: 3%;
+    max-width: 80%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.pack-downloads a, .pack-downloads p {
+    font-size: 20px;
+}
+.pack-links {
+    display:flex;
+    flex-direction:column-reverse;
+}
